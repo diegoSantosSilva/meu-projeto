@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="style.css"> <!-- Importando o CSS -->
+</head>
+<body>
+    <!-- Cabeçalho com menu de navegação -->
+    <header>
+        <h1>Bem-vindo ao meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de apresentação -->
+    <main>
+        <section>
+            <h2>Muito prazer, Sou Diego santos da Silva. </h2>
+            <p>Este é o meu portfólio online. Aqui você encontrará informações sobre mim, minha formação, meus trabalhos e como entrar em contato comigo.</p>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Meu Portfólio</p>
+    </footer>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    const saudacao = document.createElement("p");
+    saudacao.style.textAlign = "center";
+    saudacao.style.fontSize = "18px";
+    saudacao.style.margin = "10px 0";
+
+    const hora = new Date().getHours();
+    if (hora >= 6 && hora < 12) {
+        saudacao.textContent = "Bom dia! Seja bem-vindo(a) ";
+    } else if (hora >= 12 && hora < 18) {
+        saudacao.textContent = "Boa tarde! Seja bem-vindo(a) ";
+    } else {
+        saudacao.textContent = "Boa noite! Seja bem-vindo(a) ";}
+
+    document.body.prepend(saudacao);
+});
+</script>
+</body>
+</html>

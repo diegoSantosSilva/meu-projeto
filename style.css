@@ -1,0 +1,85 @@
+/* Fonte moderna */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9; /* Fundo claro */
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background: #0077b6; /* Azul elegante */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Menu de navegação */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #023e8a;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #90e0ef; /* Azul claro no hover */
+}
+
+/* Seções */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+
+/* Lista de contatos */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+ul li a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #0096c
